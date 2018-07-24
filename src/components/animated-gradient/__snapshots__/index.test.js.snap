@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AnimatedGradient matches snapshot 1`] = `
+<svg
+  className="sc-bdVaJa cQyftp"
+>
+  <defs>
+    <radialGradient
+      fx={0}
+      fy={0}
+      id="sc-bdVaJa--gradient1"
+      r="100%"
+    >
+      <animate
+        attributeName="fx"
+        attributeType="XML"
+        dur="20s"
+        repeatCount="indefinite"
+        values=""
+      />
+      <animate
+        attributeName="fy"
+        attributeType="XML"
+        dur="20s"
+        repeatCount="indefinite"
+        values=""
+      />
+      <stop
+        offset={0}
+        stopColor="rgb(26, 128, 130)"
+      >
+        <animate
+          attributeName="stop-color"
+          attributeType="XML"
+          dur="20s"
+          repeatCount="indefinite"
+          values=""
+        />
+      </stop>
+      <stop
+        offset={1}
+        stopColor="rgb(26, 128, 130)"
+      >
+        <animate
+          attributeName="stop-color"
+          attributeType="XML"
+          dur="20s"
+          repeatCount="indefinite"
+          values=""
+        />
+      </stop>
+    </radialGradient>
+    <radialGradient
+      fx={0}
+      fy={0}
+      id="sc-bdVaJa--gradient2"
+      r="100%"
+    >
+      <animate
+        attributeName="fx"
+        attributeType="XML"
+        dur="20s"
+        repeatCount="indefinite"
+        values=""
+      />
+      <animate
+        attributeName="fy"
+        attributeType="XML"
+        dur="20s"
+        repeatCount="indefinite"
+        values=""
+      />
+      <stop
+        offset={0}
+        stopColor="white"
+        stopOpacity={0.3333333333333333}
+      />
+      <stop
+        offset={1}
+        stopColor="white"
+        stopOpacity={0}
+      />
+    </radialGradient>
+  </defs>
+  <rect
+    fill="url(#sc-bdVaJa--gradient1)"
+    height="100%"
+    width="100%"
+  />
+  <rect
+    fill="url(#sc-bdVaJa--gradient2)"
+    height="100%"
+    width="100%"
+  />
+</svg>
+`;
