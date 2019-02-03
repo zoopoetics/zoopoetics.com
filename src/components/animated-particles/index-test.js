@@ -1,15 +1,13 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Splash from './index';
+import ParticlesAnimated from './index';
 
-jest.mock('components/external-links', () => 'ExternalLinks');
-
-describe('Splash', () => {
+describe('ParticlesAnimated', () => {
   let component;
   let instance;
 
   beforeEach(() => {
-    component = renderer.create(<Splash />);
+    component = renderer.create(<ParticlesAnimated />);
     instance = component.getInstance();
   });
 

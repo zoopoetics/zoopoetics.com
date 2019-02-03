@@ -1,14 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`AnimatedGradient matches snapshot 1`] = `
+.c0 {
+  -webkit-animation: Reveal 2s;
+  animation: Reveal 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  height: 100vh;
+  pointer-events: none;
+  position: absolute;
+  width: 100vw;
+}
+
 <svg
-  className="sc-bdVaJa cQyftp"
+  className="c0"
 >
   <defs>
     <radialGradient
       fx={0}
       fy={0}
-      id="sc-bdVaJa--gradient1"
+      id="animated-gradient__StyledSvg-sc-1ll82r8-0--gradient1"
       r="100%"
     >
       <animate
@@ -53,7 +66,7 @@ exports[`AnimatedGradient matches snapshot 1`] = `
     <radialGradient
       fx={0}
       fy={0}
-      id="sc-bdVaJa--gradient2"
+      id="animated-gradient__StyledSvg-sc-1ll82r8-0--gradient2"
       r="100%"
     >
       <animate
@@ -83,12 +96,12 @@ exports[`AnimatedGradient matches snapshot 1`] = `
     </radialGradient>
   </defs>
   <rect
-    fill="url(#sc-bdVaJa--gradient1)"
+    fill="url(#animated-gradient__StyledSvg-sc-1ll82r8-0--gradient1)"
     height="100%"
     width="100%"
   />
   <rect
-    fill="url(#sc-bdVaJa--gradient2)"
+    fill="url(#animated-gradient__StyledSvg-sc-1ll82r8-0--gradient2)"
     height="100%"
     width="100%"
   />
