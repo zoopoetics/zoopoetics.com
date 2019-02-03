@@ -11,15 +11,19 @@ const StyledMain = styled.main`
   justify-content: center;
   min-height: 320px;
   min-width: 320px;
+  padding-left: 2rem;
+  padding-right: 2rem;
   position: absolute;
   width: 100vw;
 `;
 const StyledH1 = styled.h1`
   font-weight: normal;
   margin: 0;
+  text-align: center;
 `;
 const StyledH2 = styled.h2`
   font-weight: normal;
+  text-align: center;
 `;
 
 function Splash() {
