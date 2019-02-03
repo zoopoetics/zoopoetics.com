@@ -16,7 +16,7 @@ const GlobalStyles = createGlobalStyle`
   body {
     background-color: white;
     color: white;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
   }
 
   h1,
