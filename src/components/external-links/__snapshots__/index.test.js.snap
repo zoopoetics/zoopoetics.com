@@ -47,17 +47,6 @@ exports[`ExternalLinks matches snapshot 1`] = `
         Github
       </a>
     </li>
-    <li
-      className="c1"
-    >
-      <a
-        className="c2"
-        href="https://twitter.com/zoopoetics"
-        target="_blank"
-      >
-        Twitter
-      </a>
-    </li>
   </ul>
 </nav>
 `;

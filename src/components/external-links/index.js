@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import {Github} from 'styled-icons/fa-brands/Github';
 import {Linkedin} from 'styled-icons/fa-brands/Linkedin';
-import {Twitter} from 'styled-icons/fa-brands/Twitter';
+// import {Twitter} from 'styled-icons/fa-brands/Twitter';
 
 const StyledNav = styled.nav``;
 const StyledUl = styled.ul`
@@ -31,10 +31,10 @@ function ExternalLinks() {
             icon: Github,
             href: 'https://github.com/zoopoetics/',
           },
-          {
-            icon: Twitter,
-            href: 'https://twitter.com/zoopoetics',
-          },
+          // {
+          // icon: Twitter,
+          // href: 'https://twitter.com/zoopoetics',
+          // },
         ].map((link, index) => (
           <StyledLi key={link.href}>
             <StyledA href={link.href} target={'_blank'}>
