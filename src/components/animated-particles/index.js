@@ -13,7 +13,7 @@ export default React.memo(function AnimatedParticles() {
         particles: {
           number: {
             density: {
-              enable: false,
+              enable: true,
               value_area: 1000,
             },
             value: 6,
@@ -21,43 +21,25 @@ export default React.memo(function AnimatedParticles() {
           color: {
             value: '#ffffff',
           },
-          shape: {
-            polygon: {
-              nb_sides: 6,
-            },
-            stroke: {
-              width: 0,
-            },
-            type: 'polygon',
-          },
           opacity: {
             anim: {
               enable: false,
-              opacity_min: 0.1,
-              speed: 1,
-              sync: false,
             },
             random: true,
-            value: 0.1,
+            value: 0,
           },
           size: {
-            anim: {
-              enable: true,
-              speed: 1,
-              size_min: 40,
-              sync: false,
-            },
             random: false,
             value: 160,
           },
           line_linked: {
-            enable: false,
+            distance: 1000,
+            enable: true,
+            width: 1,
           },
           move: {
             attract: {
               enable: false,
-              rotateX: 600,
-              rotateY: 1200,
             },
             bounce: false,
             direction: 'none',
